@@ -4,10 +4,10 @@ import { Button } from '../Button'
 export const DashboardBanner = () => {
   return (
     <div className="flex items-center w-full bg-gradient-to-b from-[#25282A_84%] to-[white_16%] min-h-[431px] flex-col p-4 md:p-0 md:from-[#25282A_81%] md:to-[white_19%]">
-      <div className="flex flex-col w-full mt-9 md:w-3/4 md:mt-16 md:flex-row">
+      <div className="flex flex-col w-full mt-9 pl-[10px] md:w-3/4 md:mt-16 md:flex-row md:pl-0]">
         <div className="flex w-full flex-col items-start md:p-[0_8px] md:w-1/2">
           <h3 className="text-2xl font-semibold text-white">SOLD.com Difference</h3>
-          <p className="text-base font-normal text-white mt-4 md:max-w-[480px]">
+          <p className="text-sm leading-[27px] font-normal text-white mt-4 md:max-w-[480px] md:text-base md:leading-[26px]">
             Unlike other lead sources and portals, we don&apos;t focus on worthless metrics like
             impressions or even leads. SOLD.com shows you how many clients actually cross the finish
             line and buy or sell a home.
@@ -43,14 +43,14 @@ export const DashboardBanner = () => {
         </div>
       </div>
 
-      <div className="flex w-full min-h-[201px] bg-neutral-100 rounded-lg shadow-[0px_0px_12px_#00000029] p-[19px_24px_23px] mt-[26px] md:mt-[48px] md:w-[80%] md:p-[28px_24px_26px]">
+      <div className="flex w-full min-h-[201px] bg-neutral-100 rounded-lg shadow-[0px_0px_12px_#00000029] p-[19px_15px_23px] mt-[26px] md:mt-[48px] md:w-[80%] md:p-[28px_24px_26px]">
         <div className="flex w-full flex-col md:flex-row">
-          <div className="flex flex-col w-full md:w-1/2 md:pl-[30px]">
+          <div className="flex flex-col w-full px-[9px] md:w-1/2 md:pl-[30px] md:px-0">
             <p className="text-base font-normal text-neutral-900 max-w-[297px] sm:max-w-[430px]">
               Our referrals are routed to the top performing agents in our network. Rankings are
               based on numerous factors, including:
             </p>
-            <div className="grid grid-cols-1 gap-y-2 mt-3 md:mt-4 md:grid-cols-2">
+            <div className="grid grid-cols-1 mt-3 md:gap-y-2 md:mt-4 md:grid-cols-2">
               <div className="flex items-center">
                 <span className="text-lg font-bold text-orange">+</span>
                 <p className="text-sm font-normal text-neutral-900 ml-4">Transaction Statistics</p>
@@ -69,7 +69,7 @@ export const DashboardBanner = () => {
               </div>
             </div>
           </div>
-          <div className="flex w-full md:w-1/2">
+          <div className="flex w-full mt-7 md:w-1/2 md:mt-0">
             <div className="flex flex-col w-full rounded-xl bg-neutral-300 p-[19px_16px] md:p-[23px_20px]">
               <div className="flex items-center md:justify-between">
                 <div className="flex w-full justify-between items-center gap-4 md:justify-normal md:w-auto">
